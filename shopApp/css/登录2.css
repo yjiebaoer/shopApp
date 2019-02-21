@@ -1,0 +1,256 @@
+.full{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.full img{
+    width: 100%;
+    height: auto;
+}
+.return-key{
+    width: 0.21rem;
+    height: 0.35rem;
+    /*background: #fea8a8;*/
+    text-align: left;
+    line-height: 0.35rem;
+    position: absolute;
+    top: 0.67rem;
+    left: 0.52rem;
+}
+.return-key i{
+    width: 100%;
+    height: 100%;
+    color: #101214;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.35rem;
+}
+.white{
+    width: 6.68rem;
+    height: 5.56rem;
+    background: white;
+    box-shadow: 0.05rem 0.05rem 0.2rem #c1c1c1;
+    margin: 0 auto;
+    position: absolute;
+    top:2.23rem;
+    left: 50%;
+    margin-left: -3.34rem;
+    padding: 0.62rem;
+}
+.white .login-text{
+    width: 100%;
+    height: 0.32rem;
+    /*background: #b6dcdf;*/
+    margin-bottom: 0.51rem;
+}
+.white .login-text .text-left{
+    width: 0.7rem;
+    height: 100%;
+    /*background: #f9c5c7;*/
+    float: left;
+    margin-left: 0.24rem;
+    font-size: 0.34rem;
+    text-align: left;
+    line-height: 0.32rem;
+    color: #343434;
+    letter-spacing: 0.01rem;
+}
+.white .login-text .text-right{
+    width: 0.7rem;
+    height: 100%;
+    /*background: #f9c5c7;*/
+    float: right;
+    margin-right: 0.24rem;
+    font-size: 0.34rem;
+    text-align: left;
+    line-height: 0.32rem;
+    color: #343434;
+    letter-spacing: 0.01rem;
+}
+.white .login-text .active{
+    color: #F7884B;
+}
+.username,.password{
+    width: 100%;
+    height: 0.25rem;
+    /*background: #85c227;*/
+    font-size: 0.26rem;
+    text-align: left;
+    line-height: 0.25rem;
+    letter-spacing: 0.01rem;
+    color: #7a7a7a;
+    margin-bottom: 0.36rem;
+}
+.white form input{
+    border: none;
+    border-bottom: 3px solid #cccccc;
+    /*box-shadow: 0 0.1rem 0.2rem red;*/
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    text-align: left;
+    color: #737373;
+    margin-bottom: 0.48rem;
+}
+.white form input.active{
+    box-shadow: 0 0.1rem 0.2rem #ffb964;
+    border-bottom:3px solid #fdaf22;
+}
+.forget{
+    width: 100%;
+    height: 0.23rem;
+    /*background: #85c227;*/
+}
+.forget-left{
+    width: 0.23rem;
+    height: 100%;
+    /*background: #e6cd69;*/
+    float: left;
+    margin-right: 0.36rem;
+}
+.forget-left img{
+    width: 0.3rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.23rem;
+}
+.forget-right{
+    width: 1.3rem;
+    height: 100%;
+    /*background: #e6cd69;*/
+    float: left;
+    text-align: left;
+    line-height: 0.23rem;
+    letter-spacing: 0.02rem;
+    font-size: 0.24rem;
+}
+.login-bottom{
+    width: 6.68rem;
+    height: 0.79rem;
+    background: white;
+    box-shadow: 0.05rem 0.05rem 0.2rem #c1c1c1;
+    position: absolute;
+    top: 8.15rem;
+    left: 50%;
+    margin-left: -3.34rem;
+    font-size: 0.32rem;
+    color: #8d8d8d;
+    text-align: center;
+    line-height: 0.79rem;
+    letter-spacing: 0.02rem;
+}
+.third{
+    width: 100%;
+    height: 0.27rem;
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 9.75rem;
+    text-align: center;
+    line-height: 0.27rem;
+    letter-spacing: 0.02rem;
+}
+.right{
+    width: 0.32rem;
+    height: 0.32rem;
+    /*background: #e88a71;*/
+    position: absolute;
+    top: 4.41rem;
+    left: 50%;
+    margin-left: 2.34rem;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+}
+.mode{
+    width: 1.79rem;
+    height: 0.32rem;
+    background: #f93e3e;
+    border-radius: 0.12rem;
+    box-shadow: 0 0.05rem 0.2rem #ff6565;
+    border: 1px solid #f93e3e;
+    position: absolute;
+    top: 4.45rem;
+    right: 0.68rem;
+}
+.mode .mode-image{
+    width: 0.23rem;
+    height: 0.23rem;
+    /*background: #fdf85e;*/
+    margin-left: 0.03rem;
+    margin-top: 0.05rem;
+    float: left;
+}
+.mode .mode-image img{
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+}
+.mode .mode-text{
+    width: 1rem;
+    height: 100%;
+    /*background: #95d1dc;*/
+    text-align: left;
+    line-height: 0.28rem;
+    float: left;
+    margin-left: 0.14rem;
+    font-size: 0.22rem;
+    letter-spacing: 0.03rem;
+    color: white;
+}
+
+
+.qq{
+    width: 3.57rem;
+    height: 1.28rem;
+    /*background: #f6d88c;*/
+    position: absolute;
+    top: 10.54rem;
+    left: 50%;
+    margin-left: -1.78rem;
+}
+.qq .chat-we{
+    /*display: block;*/
+    width: 1rem;
+    height: 100%;
+    /*background: #ef9196;*/
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.qq .chat-qq{
+    width: 1rem;
+    height: 100%;
+    /*background: #ef9196;*/
+    float: right;
+    /*display: block;*/
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.qq .chat-we .chat-we-top,.qq .chat-qq .chat-we-top{
+    width: 0.75rem;
+    height: 0.75rem;
+    /*background: #b3f9f7;*/
+}
+.qq .chat-we .chat-we-top i,.qq .chat-qq .chat-we-top i{
+    width: 100%;
+    height: 100%;
+    color: #3cb035;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 0.75rem;
+}
+.qq .chat-we .chat-we-bottom,.qq .chat-qq .chat-we-bottom{
+    width: 100%;
+    height: 0.22rem;
+    /*background: #c9e9aa;*/
+    text-align: center;
+    line-height: 0.22rem;
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+}

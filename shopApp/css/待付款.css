@@ -1,0 +1,131 @@
+.top{
+    width: 100%;
+    height: 4.73rem;
+    background: #F7884B;
+    position: relative;
+}
+.back{
+    width: 0.21rem;
+    height: 0.35rem;
+    font-size: 0.2rem;
+    color: white;
+    position: absolute;
+    top: 0.57rem;
+    left: 0.4rem;
+    text-align: center;
+    line-height: 0.35rem;
+}
+.need{
+    width: 1.6rem;
+    height: 0.3rem;
+    color: white;
+    text-align: center;
+    line-height: 0.3rem;
+    letter-spacing: 0.01rem;
+    position: absolute;
+    top: 0.64rem;
+    left: 50%;
+    margin-left: -0.8rem;
+    font-size: 0.3rem;
+}
+.circle{
+    width: 1.84rem;
+    height: 1.84rem;
+    background: rgba(255,255,255,0.85);
+    border-radius: 50%;
+    position: absolute;
+    top:1.94rem;
+    left: 50%;
+    margin-left: -0.92rem;
+}
+.circle .text{
+    width: 100%;
+    height: 0.48rem;
+    margin: 0.76rem 0 0 0;
+}
+.circle .text .rmb {
+    width: 0.15rem;
+    height: 100%;
+    margin-left: 0.18rem;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    text-align: center;
+    color: #fd5322;
+    float: left;
+}
+
+
+.circle .text .number{
+    width: 1.3rem;
+    height: 100%;
+    text-align: center;
+    line-height: 0.48rem;
+    float: left;
+    color: #fd5322;
+    font-size: 0.48rem;
+}
+/*下面白色框开始*/
+.box{
+    width: 6.24rem;
+    height:3.43rem ;
+    box-shadow: 0.03rem 0.03rem 0.15rem #e1e1e1;
+    margin: 1.72rem auto 0 auto;
+    border: 1px solid white;
+
+}
+.box .balance{
+    width: 100%;
+    height: 0.32rem;
+    /*background: #d2a4d5;*/
+    margin-top: 0.66rem;
+    display: block;
+}
+.box .balance .balance-left{
+    width: 1.1rem;
+    height: 100%;
+    /*background: #639bac;*/
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.32rem;
+    margin-left: 0.33rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.box .balance .balance-right{
+    width: 0.81rem;
+    height: 100%;
+    /*background: #639bac;*/
+    text-align: center;
+    line-height: 0.32rem;
+    float: left;
+}
+.other{
+    width: 3rem;
+    height: 0.26rem;
+    /*background: #7ba8df;*/
+    margin-left: 0.33rem;
+    margin-top: 0.55rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.26rem;
+    letter-spacing: 0.01rem;
+}
+.image{
+    width: 100%;
+    height: 0.97rem;
+    /*background: #eeba4c;*/
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.image .wechat{
+    width: 0.97rem;
+    height: 100%;
+    /*background: #4acedb;*/
+    display: block;
+
+}
+.image .wechat img{
+    width: 100%;
+    height: 100%;
+}
