@@ -41,16 +41,16 @@
     letter-spacing: 0.01rem;
 }
 .text-index{
-    width: 1.9rem;
+    width: 2.9rem;
     height: 0.65rem;
-    border: 1px solid #ffb964;
-    box-shadow: 0 0 0.3rem #fdaf22;
+    border: 1px solid #ff972d;
+    box-shadow: 0 0 0.3rem #fba328;
     margin: 1.28rem auto 0.5rem auto;
     border-radius: 0.3rem;
     text-align: center;
     line-height: 0.65rem;
     letter-spacing: 0.02rem;
-    color: #343434;
+    color: #101214;
     font-size: 0.3rem;
 
 }

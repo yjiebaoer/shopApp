@@ -69,7 +69,7 @@
     width: 6.24rem;
     height:3.43rem ;
     box-shadow: 0.03rem 0.03rem 0.15rem #e1e1e1;
-    margin: 1.72rem auto 0 auto;
+    margin: 0.82rem auto 0 auto;
     border: 1px solid white;
 
 }
@@ -80,31 +80,11 @@
     margin-top: 0.66rem;
     display: block;
 }
-.box .balance .balance-left{
-    width: 1.1rem;
-    height: 100%;
-    /*background: #639bac;*/
-    font-size: 0.26rem;
-    text-align: center;
-    line-height: 0.32rem;
-    margin-left: 0.33rem;
-    margin-right: 0.3rem;
-    float: left;
-}
-.box .balance .balance-right{
-    width: 0.81rem;
-    height: 100%;
-    /*background: #639bac;*/
-    text-align: center;
-    line-height: 0.32rem;
-    float: left;
-}
 .other{
     width: 3rem;
     height: 0.26rem;
     /*background: #7ba8df;*/
-    margin-left: 0.33rem;
-    margin-top: 0.55rem;
+    margin: 35px auto;
     font-size: 0.26rem;
     text-align: center;
     line-height: 0.26rem;
